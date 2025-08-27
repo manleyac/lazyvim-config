@@ -3,6 +3,18 @@ return {
   opts = {
     formatters_by_ft = {
       ruby = { "bundle_standard" },
+      javascript = { "prettier" },
+      typescript = { "prettier" },
+      javascriptreact = { "prettier" },
+      typescriptreact = { "prettier" },
+      vue = { "prettier" },
+      css = { "prettier" },
+      scss = { "prettier" },
+      html = { "prettier" },
+      json = { "prettier" },
+      jsonc = { "prettier" },
+      yaml = { "prettier" },
+      markdown = { "prettier" },
     },
     formatters = {
       bundle_standard = {
